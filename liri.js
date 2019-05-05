@@ -2,14 +2,10 @@
 require("dotenv").config();
 // import the keys.js file then store it into a var
 var keys = require("./keys.js");
-//require axios
+//require axios for the omdb and bandsintown api
 var axios = require('axios')
 //need for the npm spotify api to work
 var Spotify = require('node-spotify-api')
-// bandsintown request
-// var concert = require('concert')
-//movie request
-var request = require('request')
 //will be used for the do-what-it-says case
 var fs = require('fs')
 var input = process.argv
@@ -17,36 +13,38 @@ var input = process.argv
 var search = input[2];
 //in case your response has multiple words
 var term = input.slice(3).join(" ");
-
+//switch case for the four possible choices
 switch(search) {
     case 'concert-this':
     console.log('*Loading concerts near you*')
-    bands(term)
+    console.log("-------------------------------------")
+    concert(term)
     break;
     case 'spotify-this-song':
     console.log('*Loading song info*')
+    console.log("-------------------------------------")
     spotify(term);
     break;
     case 'movie-this':
     console.log('*Loading movie info*')
+    console.log("-------------------------------------")
     movie(term)
     break;
     case 'do-what-it-says':
     console.log('placeholder what')
 }
+//function for bandsintown api and concert search
+function concert(term) {
+    var URL = `https://rest.bandsintown.com/artists/${term}/events?app_id=codingbootcamp`;
 
-function bands(term) {
-    var URL = `https://rest.bandsintown.com/artists/${term}/events?app_id=codingbootcamp`
+    axios.get(URL).then(function (response) {
+        for (i = 0; i<5; i++) {
+        var jsonData = response.data[i]
 
-    request(URL, function(error, response, body) {
-        //If no term is provided input Mr Nobody as the term
-        if (!term) {
-            term = 'Earl Sweatshirt';
-        }
-        //if there is a term then display
-        if(!error && response.statusCode === 200) {
-        console.log("Venue Name: " + JSON.parse(body).url);
-
+        console.log("Venue Name: " + jsonData.venue.name)
+        console.log("Venue Location: " + jsonData.venue.city + ", " + jsonData.venue.region)
+        console.log("Date of Event: " + jsonData.datetime)
+        console.log("-------------------------------------")
         }
     })
 
@@ -69,6 +67,7 @@ function spotify(term) {
         console.log("Song Name: " + jsonData[0].name);
         console.log("Preview Link: " + jsonData[0].preview_url);
         console.log("Album: " + jsonData[0].album.name);
+        console.log("-------------------------------------")
 
     });
 }
@@ -87,6 +86,7 @@ function movie(term) {
         console.log("Language: " + jsonData.Language)
         console.log("Plot: " + jsonData.Plot)
         console.log("Actors: " + jsonData.Actors)
+        console.log("-------------------------------------")
     })
 
 }
