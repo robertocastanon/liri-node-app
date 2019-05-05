@@ -2,8 +2,12 @@
 require("dotenv").config();
 // import the keys.js file then store it into a var
 var keys = require("./keys.js");
+//require axios
+var axios = require('axios')
 //need for the npm spotify api to work
 var Spotify = require('node-spotify-api')
+// bandsintown request
+// var concert = require('concert')
 //movie request
 var request = require('request')
 //will be used for the do-what-it-says case
@@ -16,7 +20,8 @@ var term = input.slice(3).join(" ");
 
 switch(search) {
     case 'concert-this':
-    console.log('concerts')
+    console.log('*Loading concerts near you*')
+    bands(term)
     break;
     case 'spotify-this-song':
     console.log('*Loading song info*')
@@ -31,8 +36,22 @@ switch(search) {
 }
 
 function bands(term) {
+    var URL = `https://rest.bandsintown.com/artists/${term}/events?app_id=codingbootcamp`
+
+    request(URL, function(error, response, body) {
+        //If no term is provided input Mr Nobody as the term
+        if (!term) {
+            term = 'Earl Sweatshirt';
+        }
+        //if there is a term then display
+        if(!error && response.statusCode === 200) {
+        console.log("Venue Name: " + JSON.parse(body).url);
+
+        }
+    })
 
 }
+
 // function for the spotify call, taken from documentation
 function spotify(term) {
 
@@ -58,21 +77,16 @@ function spotify(term) {
 function movie(term) {
     var URL = `http://www.omdbapi.com/?t=${term}&y=&plot=short&apikey=d8f8789e`;
 
-    request(URL, function(error, response, body) {
-        //If no term is provided input Mr Nobody as the term
-        if (!term) {
-            term = 'Mr. Nobody';
-        }
-        //if there is a term then display
-        if(!error && response.statusCode === 200) {
-        console.log("Title: " + JSON.parse(body).Title);
-        console.log("Release Year: " + JSON.parse(body).Year);
-        console.log("IMDB Rating: " + JSON.parse(body).imdbRating);
-        console.log("Rotten Tomatoe's Rating: " + JSON.parse(body).Ratings[1].Value);
-        console.log("Country: " + JSON.parse(body).Country);
-        console.log("Languages: " + JSON.parse(body).Language);
-        console.log("Plot: " + JSON.parse(body).Plot);
-        console.log("Actors: " + JSON.parse(body).Actors);
-        }
+    axios.get(URL).then(function (response) {
+        var jsonData = response.data
+        console.log("Title: " + jsonData.Title)
+        console.log("Release Date: " + jsonData.Released)
+        console.log("IMDB Rating: " + jsonData.imdbRating)
+        console.log("Rotten Tomatoe Rating: " + jsonData.Ratings[1].Value)
+        console.log("Country: " + jsonData.Country)
+        console.log("Language: " + jsonData.Language)
+        console.log("Plot: " + jsonData.Plot)
+        console.log("Actors: " + jsonData.Actors)
     })
+
 }
