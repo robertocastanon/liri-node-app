@@ -62,12 +62,19 @@ function spotify(term) {
         }
         //parse the data given by the api
         jsonData = data.tracks.items
+        var spotifyDisplay = [
         //displays the information using the parsed jsonData
-        console.log("Artist(s): " + jsonData[0].artists[0].name);
-        console.log("Song Name: " + jsonData[0].name);
-        console.log("Preview Link: " + jsonData[0].preview_url);
-        console.log("Album: " + jsonData[0].album.name);
-        console.log("-------------------------------------")
+        "Artist(s): " + jsonData[0].artists[0].name,
+        "Song Name: " + jsonData[0].name,
+        "Preview Link: " + jsonData[0].preview_url,
+        "Album: " + jsonData[0].album.name,
+        "-------------------------------------"
+        ].join('\n\n')
+
+        fs.appendFile('log.txt', spotifyDisplay, function (err) {
+            if (err) throw err
+            console.log(spotifyDisplay);
+        })
 
     });
 }
@@ -77,7 +84,7 @@ function movie(term) {
     var URL = `http://www.omdbapi.com/?t=${term}&y=&plot=short&apikey=trilogy`;
 
     axios.get(URL).then(function (response) {
-
+        //store json data in var
         var jsonData = response.data
         var movieDisplay = [
         "Title: " + jsonData.Title,
@@ -89,10 +96,10 @@ function movie(term) {
         "Plot: " + jsonData.Plot,
         "-------------------------------------"
         ].join('\n\n')
-
+        // will append data from movie and then display it to user
         fs.appendFile('log.txt', movieDisplay, function (err) {
             if (err) throw err
-            console.log(movieDisplay)
+            console.log(movieDisplay);
         })
     })
 
