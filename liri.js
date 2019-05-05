@@ -38,13 +38,21 @@ function concert(term) {
     var URL = `https://rest.bandsintown.com/artists/${term}/events?app_id=codingbootcamp`;
 
     axios.get(URL).then(function (response) {
+        // will display information about the first 5 venues
         for (i = 0; i<5; i++) {
         var jsonData = response.data[i]
 
-        console.log("Venue Name: " + jsonData.venue.name)
-        console.log("Venue Location: " + jsonData.venue.city + ", " + jsonData.venue.region)
-        console.log("Date of Event: " + jsonData.datetime)
-        console.log("-------------------------------------")
+        var concertDisplay = [
+        "Venue Name: " + jsonData.venue.name,
+        "Venue Location: " + jsonData.venue.city + ", " + jsonData.venue.region,
+        "Date of Event: " + jsonData.datetime,
+        "-------------------------------------"
+        ].join('\n\n')
+
+        fs.appendFile('log.txt', concertDisplay, function (err) {
+            if (err) throw err
+            console.log(concertDisplay);
+        })
         }
     })
 

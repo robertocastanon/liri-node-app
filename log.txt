@@ -20,4 +20,34 @@ Preview Link: https://p.scdn.co/mp3-preview/6ece6ef8b0c879c99b97901c7897f32b0dd5
 
 Album: 2
 
+-------------------------------------Venue Name: Saturn
+
+Venue Location: Birmingham, AL
+
+Date of Event: 2019-05-05T19:00:36
+
+-------------------------------------Venue Name: Ascend Amphitheater
+
+Venue Location: Nashville, TN
+
+Date of Event: 2019-05-17T19:30:00
+
+-------------------------------------Venue Name: The Met Philadelphia
+
+Venue Location: Philadelphia, PA
+
+Date of Event: 2019-05-21T19:30:00
+
+-------------------------------------Venue Name: The Masquerade
+
+Venue Location: Atlanta, GA
+
+Date of Event: 2019-05-06T19:00:32
+
+-------------------------------------Venue Name: Jacobs Pavilion at Nautica
+
+Venue Location: Cleveland, OH
+
+Date of Event: 2019-05-20T19:30:00
+
 -------------------------------------
