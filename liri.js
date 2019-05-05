@@ -77,16 +77,23 @@ function movie(term) {
     var URL = `http://www.omdbapi.com/?t=${term}&y=&plot=short&apikey=trilogy`;
 
     axios.get(URL).then(function (response) {
+
         var jsonData = response.data
-        console.log("Title: " + jsonData.Title)
-        console.log("Release Date: " + jsonData.Released)
-        console.log("IMDB Rating: " + jsonData.imdbRating)
-        console.log("Rotten Tomatoe Rating: " + jsonData.Ratings[1].Value)
-        console.log("Country: " + jsonData.Country)
-        console.log("Language: " + jsonData.Language)
-        console.log("Plot: " + jsonData.Plot)
-        console.log("Actors: " + jsonData.Actors)
-        console.log("-------------------------------------")
+        var movieDisplay = [
+        "Title: " + jsonData.Title,
+        "Release Date: " + jsonData.Released,
+        "IMDB Rating: " + jsonData.imdbRating,
+        "Rotten Tomatoe Rating: " + jsonData.Ratings[1].Value,
+        "Country: " + jsonData.Country,
+        "Language: " + jsonData.Language,
+        "Plot: " + jsonData.Plot,
+        "-------------------------------------"
+        ].join('\n\n')
+
+        fs.appendFile('log.txt', movieDisplay, function (err) {
+            if (err) throw err
+            console.log(movieDisplay)
+        })
     })
 
 }
@@ -103,7 +110,6 @@ function random() {
         var dataArr = data.split(',');
         console.log(dataArr[1])
         console.log("-------------------------------------")
-
         spotify(dataArr[1])
 
 
