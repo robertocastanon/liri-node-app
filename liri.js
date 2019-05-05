@@ -55,7 +55,6 @@ function concert(term) {
         })
         }
     })
-
 }
 
 // function for the spotify call, taken from documentation
@@ -119,13 +118,17 @@ function random() {
         if(err) {
             return console.log(err);
         }
-        console.log(data)
-        console.log("-------------------------------------")
-        console.log("Running 'spotify-this-song' for 'I Want it That Way'")
         var dataArr = data.split(',');
-        console.log(dataArr[1])
-        console.log("-------------------------------------")
+        var randomDisplay = [
+        "Running 'spotify-this-song' for 'I Want it That Way'",
+        "-------------------------------------",
         spotify(dataArr[1])
+        ].join('\n\n')
+
+        fs.appendFile('log.txt', randomDisplay, function (err) {
+            if (err) throw err
+            console.log(randomDisplay);
+        })
 
 
 
