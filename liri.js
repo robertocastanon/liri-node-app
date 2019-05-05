@@ -31,7 +31,7 @@ switch(search) {
     movie(term)
     break;
     case 'do-what-it-says':
-    console.log('placeholder what')
+    random()
 }
 //function for bandsintown api and concert search
 function concert(term) {
@@ -74,7 +74,7 @@ function spotify(term) {
 
 //function for calling the omdb api
 function movie(term) {
-    var URL = `http://www.omdbapi.com/?t=${term}&y=&plot=short&apikey=d8f8789e`;
+    var URL = `http://www.omdbapi.com/?t=${term}&y=&plot=short&apikey=trilogy`;
 
     axios.get(URL).then(function (response) {
         var jsonData = response.data
@@ -89,4 +89,25 @@ function movie(term) {
         console.log("-------------------------------------")
     })
 
+}
+
+function random() {
+    fs.readFile('random.txt', 'utf8', function(err, data) {
+
+        if(err) {
+            return console.log(err);
+        }
+        console.log(data)
+        console.log("-------------------------------------")
+        console.log("Running 'spotify-this-song' for 'I Want it That Way'")
+        var dataArr = data.split(',');
+        console.log(dataArr[1])
+        console.log("-------------------------------------")
+
+        spotify(dataArr[1])
+
+
+
+
+    })
 }
