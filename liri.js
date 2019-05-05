@@ -4,37 +4,41 @@ require("dotenv").config();
 var keys = require("./keys.js");
 //need for the npm spotify api to work
 var Spotify = require('node-spotify-api')
+//movie request
+var request = require('request')
 //will be used for the do-what-it-says case
 var fs = require('fs')
 var input = process.argv
 //will process the users first input after the filename
-var command = input[2];
+var search = input[2];
 //in case your response has multiple words
-var Inputname = input.slice(3).join(" ");
-// var Concert = require()
+var term = input.slice(3).join(" ");
 
-
-
-switch(command) {
+switch(search) {
     case 'concert-this':
     console.log('concerts')
     break;
     case 'spotify-this-song':
-    console.log('Loading song info')
-    spotify(Inputname);
+    console.log('*Loading song info*')
+    spotify(term);
     break;
     case 'movie-this':
-    console.log('movie')
+    console.log('*Loading movie info*')
+    movie(term)
     break;
     case 'do-what-it-says':
     console.log('placeholder what')
 }
+
+function bands(term) {
+
+}
 // function for the spotify call, taken from documentation
-function spotify(Inputname) {
+function spotify(term) {
 
     var spotify = new Spotify(keys.spotify);
 
-    spotify.search({ type: 'track', query: Inputname }, function(err,data) {
+    spotify.search({ type: 'track', query: term }, function(err,data) {
         if (err) {
             console.log('Error occurred: ' + err);
             return
@@ -48,4 +52,27 @@ function spotify(Inputname) {
         console.log("Album: " + jsonData[0].album.name);
 
     });
+}
+
+//function for calling the omdb api
+function movie(term) {
+    var URL = `http://www.omdbapi.com/?t=${term}&y=&plot=short&apikey=d8f8789e`;
+
+    request(URL, function(error, response, body) {
+        //If no term is provided input Mr Nobody as the term
+        if (!term) {
+            term = 'Mr. Nobody';
+        }
+        //if there is a term then display
+        if(!error && response.statusCode === 200) {
+        console.log("Title: " + JSON.parse(body).Title);
+        console.log("Release Year: " + JSON.parse(body).Year);
+        console.log("IMDB Rating: " + JSON.parse(body).imdbRating);
+        console.log("Rotten Tomatoe's Rating: " + JSON.parse(body).Ratings[1].Value);
+        console.log("Country: " + JSON.parse(body).Country);
+        console.log("Languages: " + JSON.parse(body).Language);
+        console.log("Plot: " + JSON.parse(body).Plot);
+        console.log("Actors: " + JSON.parse(body).Actors);
+        }
+    })
 }
