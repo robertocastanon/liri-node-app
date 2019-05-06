@@ -15,4 +15,5 @@ Then then choose one of the four possible paremters.
 You type into the command line for example **node liri spotify-this-song** then provide a term for this command, pick a song, lets say Graduation by Kanye West. Which will look like this **node liri spotify-this-song graduation** after just presss enter.
 
 You should see this in the command line
+
 ![First exmaple](./images/first-example.PNG)
