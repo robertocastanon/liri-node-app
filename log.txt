@@ -118,4 +118,220 @@ Venue Location: Cleveland, OH
 
 Date of Event: 2019-05-20T19:30:00
 
+-------------------------------------Artist(s): Billie Eilish
+
+Song Name: bellyache
+
+Preview Link: null
+
+Album: Bellyache
+
+-------------------------------------Venue Name: Margaret Court Arena
+
+Venue Location: Melbourne, 
+
+Date of Event: 2019-05-03T19:00:26
+
+-------------------------------------Venue Name: Groovin The Moo
+
+Venue Location: Bendigo, 
+
+Date of Event: 2019-05-04T19:00:07
+
+-------------------------------------Venue Name: Riverstage
+
+Venue Location: Brisbane, 
+
+Date of Event: 2019-05-07T19:00:10
+
+-------------------------------------Venue Name: Fremantle Arts Centre
+
+Venue Location: Fremantle, 
+
+Date of Event: 2019-05-10T19:00:03
+
+-------------------------------------Venue Name: Groovin The Moo
+
+Venue Location: Townsville, 
+
+Date of Event: 2019-05-05T19:00:51
+
+-------------------------------------Venue Name: Legacy Arena at The BJCC
+
+Venue Location: Birmingham, AL
+
+Date of Event: 2019-05-07T00:00:00
+
+-------------------------------------Venue Name: KFC Yum! Center
+
+Venue Location: Louisville, KY
+
+Date of Event: 2019-05-08T00:00:00
+
+-------------------------------------Venue Name: Enterprise Center
+
+Venue Location: Saint Louis, MO
+
+Date of Event: 2019-05-13T00:00:00
+
+-------------------------------------Venue Name: Hampton Coliseum
+
+Venue Location: Hampton, VA
+
+Date of Event: 2019-05-10T00:00:00
+
+-------------------------------------Venue Name: Rockingham Dragway
+
+Venue Location: Rockingham, NC
+
+Date of Event: 2019-05-11T00:00:00
+
+-------------------------------------Title: Monty Python and the Holy Grail
+
+Release Date: 25 May 1975
+
+IMDB Rating: 8.3
+
+Rotten Tomatoe Rating: 97%
+
+Country: UK
+
+Language: English, French, Latin
+
+Plot: King Arthur and his Knights of the Round Table embark on a surreal, low-budget search for the Holy Grail, encountering many, very silly obstacles.
+
+-------------------------------------Title: The Sandlot
+
+Release Date: 07 Apr 1993
+
+IMDB Rating: 7.8
+
+Rotten Tomatoe Rating: 60%
+
+Country: USA
+
+Language: English
+
+Plot: In the summer of 1962, a new kid in town is taken under the wing of a young baseball prodigy and his rowdy team, resulting in many adventures.
+
+-------------------------------------Title: The Sandlot
+
+Release Date: 07 Apr 1993
+
+IMDB Rating: 7.8
+
+Rotten Tomatoe Rating: 60%
+
+Country: USA
+
+Language: English
+
+Plot: In the summer of 1962, a new kid in town is taken under the wing of a young baseball prodigy and his rowdy team, resulting in many adventures.
+
+-------------------------------------Venue Name: The Masquerade
+
+Venue Location: Atlanta, GA
+
+Date of Event: 2019-05-06T19:00:32
+
+-------------------------------------Venue Name: Ascend Amphitheater
+
+Venue Location: Nashville, TN
+
+Date of Event: 2019-05-17T19:30:00
+
+-------------------------------------Venue Name: Mohegan Sun Arena
+
+Venue Location: Uncasville, CT
+
+Date of Event: 2019-05-23T19:30:00
+
+-------------------------------------Venue Name: Jacobs Pavilion at Nautica
+
+Venue Location: Cleveland, OH
+
+Date of Event: 2019-05-20T19:30:00
+
+-------------------------------------Venue Name: The Met Philadelphia
+
+Venue Location: Philadelphia, PA
+
+Date of Event: 2019-05-21T19:30:00
+
+-------------------------------------Artist(s): Ace of Base
+
+Song Name: The Sign
+
+Preview Link: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=8b7add5d3da9442aa31a55f6b9c079e5
+
+Album: The Sign (US Album) [Remastered]
+
+-------------------------------------Title: Mr. Nobody
+
+Release Date: 26 Sep 2013
+
+IMDB Rating: 7.8
+
+Rotten Tomatoe Rating: 67%
+
+Country: Belgium, Germany, Canada, France, USA, UK
+
+Language: English, Mohawk
+
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+
+-------------------------------------Title: The Avengers
+
+Release Date: 04 May 2012
+
+IMDB Rating: 8.1
+
+Rotten Tomatoe Rating: 92%
+
+Country: USA
+
+Language: English, Russian, Hindi
+
+Plot: Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.
+
+-------------------------------------Running 'spotify-this-song' for 'I Want it That Way'
+
+-------------------------------------
+
+Artist(s): Backstreet Boys
+
+Song Name: I Want It That Way
+
+Preview Link: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=8b7add5d3da9442aa31a55f6b9c079e5
+
+Album: The Hits--Chapter One
+
+-------------------------------------Title: Avatar
+
+Release Date: 18 Dec 2009
+
+IMDB Rating: 7.8
+
+Rotten Tomatoe Rating: 82%
+
+Country: UK, USA
+
+Language: English, Spanish
+
+Plot: A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.
+
+-------------------------------------Title: Avatar
+
+Release Date: 18 Dec 2009
+
+IMDB Rating: 7.8
+
+Rotten Tomatoe Rating: 82%
+
+Country: UK, USA
+
+Language: English, Spanish
+
+Plot: A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.
+
 -------------------------------------
