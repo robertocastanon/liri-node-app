@@ -13,9 +13,13 @@ var input = process.argv
 var search = input[2];
 //in case your response has multiple words
 var term = input.slice(3).join(" ");
+
 //switch case for the four possible choices
 switch(search) {
     case 'concert-this':
+    if(!term) {
+        term = "Earl Sweatshirt"
+    }
     console.log('*Loading concerts near you*')
     console.log("-------------------------------------")
     concert(term)

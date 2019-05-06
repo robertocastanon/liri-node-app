@@ -58,4 +58,64 @@ Language: English, Mohawk
 
 Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
 
+-------------------------------------Venue Name: STAPLES Center
+
+Venue Location: Los Angeles, CA
+
+Date of Event: 2019-05-06T19:00:33
+
+-------------------------------------Venue Name: Staples Center
+
+Venue Location: Los Angeles, CA
+
+Date of Event: 2019-05-07T19:00:22
+
+-------------------------------------Venue Name: T-Mobile Arena
+
+Venue Location: Las Vegas, NV
+
+Date of Event: 2019-05-11T19:00:39
+
+-------------------------------------Venue Name: The Forum
+
+Venue Location: Los Angeles, CA
+
+Date of Event: 2019-05-10T19:00:30
+
+-------------------------------------Venue Name: Talking Stick Resort Arena
+
+Venue Location: Phoenix, AZ
+
+Date of Event: 2019-05-14T19:00:11
+
+-------------------------------------Venue Name: Saturn
+
+Venue Location: Birmingham, AL
+
+Date of Event: 2019-05-05T19:00:36
+
+-------------------------------------Venue Name: Ascend Amphitheater
+
+Venue Location: Nashville, TN
+
+Date of Event: 2019-05-17T19:30:00
+
+-------------------------------------Venue Name: The Met Philadelphia
+
+Venue Location: Philadelphia, PA
+
+Date of Event: 2019-05-21T19:30:00
+
+-------------------------------------Venue Name: The Masquerade
+
+Venue Location: Atlanta, GA
+
+Date of Event: 2019-05-06T19:00:32
+
+-------------------------------------Venue Name: Jacobs Pavilion at Nautica
+
+Venue Location: Cleveland, OH
+
+Date of Event: 2019-05-20T19:30:00
+
 -------------------------------------
