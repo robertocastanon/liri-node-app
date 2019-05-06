@@ -16,6 +16,7 @@ switch(search) { // switch case for the 4 possible choices
     case 'concert-this':
     if(!term) { // if no term is given then it will default to "Earl Sweatshirt"
         term = "Earl Sweatshirt"
+        console.log("Since no term was provided the program will input 'Earl Sweatshirt' as the term")
     }
     console.log('*Loading concerts near you*')
     console.log("-------------------------------------")
@@ -23,7 +24,8 @@ switch(search) { // switch case for the 4 possible choices
     break;
     case 'spotify-this-song':
     if(!term) { //if no term is given then it will default to "The Sign by Ace of Base"
-        term = "The Sign Ace of Base"
+        term = "The Sign by Ace of Base"
+        console.log("Since no term was provided the program will input 'The Sign by Ace of Base' as the term")
     }
     console.log('*Loading song info*')
     console.log("-------------------------------------")
@@ -32,6 +34,7 @@ switch(search) { // switch case for the 4 possible choices
     case 'movie-this':
     if(!term) { // if no term is given then it will default to "Mr. Nobody"
         term = "Mr. Nobody"
+        console.log("Since no term was provided the program will input 'Mr. Nobody' as the term")
     }
     console.log('*Loading movie info*')
     console.log("-------------------------------------")
