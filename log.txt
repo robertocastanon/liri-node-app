@@ -1,97 +1,61 @@
-Title: Avatar
-
-Release Date: 18 Dec 2009
-
-IMDB Rating: 7.8
-
-Rotten Tomatoe Rating: 82%
-
-Country: UK, USA
-
-Language: English, Spanish
-
-Plot: A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.
-
--------------------------------------Artist(s): Mac DeMarco
-
-Song Name: Ode to Viceroy
-
-Preview Link: https://p.scdn.co/mp3-preview/6ece6ef8b0c879c99b97901c7897f32b0dd54fbd?cid=8b7add5d3da9442aa31a55f6b9c079e5
-
-Album: 2
-
--------------------------------------Venue Name: Saturn
+TEST - Venue Name: Saturn
 
 Venue Location: Birmingham, AL
 
 Date of Event: 2019-05-05T19:00:36
 
--------------------------------------Venue Name: Ascend Amphitheater
-
-Venue Location: Nashville, TN
-
-Date of Event: 2019-05-17T19:30:00
-
--------------------------------------Venue Name: The Met Philadelphia
-
-Venue Location: Philadelphia, PA
-
-Date of Event: 2019-05-21T19:30:00
-
--------------------------------------Venue Name: The Masquerade
+-------------------------------------TEST - Venue Name: The Masquerade
 
 Venue Location: Atlanta, GA
 
 Date of Event: 2019-05-06T19:00:32
 
--------------------------------------Venue Name: Jacobs Pavilion at Nautica
+-------------------------------------TEST - Venue Name: The Met Philadelphia
+
+Venue Location: Philadelphia, PA
+
+Date of Event: 2019-05-21T19:30:00
+
+-------------------------------------TEST - Venue Name: Ascend Amphitheater
+
+Venue Location: Nashville, TN
+
+Date of Event: 2019-05-17T19:30:00
+
+-------------------------------------TEST - Venue Name: Jacobs Pavilion at Nautica
 
 Venue Location: Cleveland, OH
 
 Date of Event: 2019-05-20T19:30:00
 
--------------------------------------Artist(s): Backstreet Boys
+-------------------------------------TEST - Venue Name: Saturn
 
-Song Name: I Want It That Way
+Venue Location: Birmingham, AL
 
-Preview Link: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=8b7add5d3da9442aa31a55f6b9c079e5
+Date of Event: 2019-05-05T19:00:36
 
-Album: The Hits--Chapter One
+-------------------------------------TEST - Venue Name: The Masquerade
 
--------------------------------------Artist(s): Backstreet Boys
+Venue Location: Atlanta, GA
 
-Song Name: I Want It That Way
+Date of Event: 2019-05-06T19:00:32
 
-Preview Link: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=8b7add5d3da9442aa31a55f6b9c079e5
+-------------------------------------TEST - Venue Name: Jacobs Pavilion at Nautica
 
-Album: The Hits--Chapter One
+Venue Location: Cleveland, OH
 
--------------------------------------Artist(s): Backstreet Boys
+Date of Event: 2019-05-20T19:30:00
 
-Song Name: I Want It That Way
+-------------------------------------TEST - Venue Name: The Met Philadelphia
 
-Preview Link: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=8b7add5d3da9442aa31a55f6b9c079e5
+Venue Location: Philadelphia, PA
 
-Album: The Hits--Chapter One
+Date of Event: 2019-05-21T19:30:00
 
--------------------------------------Artist(s): Backstreet Boys
+-------------------------------------TEST - Venue Name: Ascend Amphitheater
 
-Song Name: I Want It That Way
+Venue Location: Nashville, TN
 
-Preview Link: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=8b7add5d3da9442aa31a55f6b9c079e5
-
-Album: The Hits--Chapter One
-
--------------------------------------Running 'spotify-this-song' for 'I Want it That Way'
-
--------------------------------------
-
-Artist(s): Backstreet Boys
-
-Song Name: I Want It That Way
-
-Preview Link: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=8b7add5d3da9442aa31a55f6b9c079e5
-
-Album: The Hits--Chapter One
+Date of Event: 2019-05-17T19:30:00
 
 -------------------------------------

@@ -41,18 +41,21 @@ function concert(term) {
         // will display information about the first 5 venues
         for (i = 0; i<5; i++) {
         var jsonData = response.data[i]
-
+/* un-comment the bottom section for the example of logging the info to log.txt*/
         var concertDisplay = [
-        "Venue Name: " + jsonData.venue.name,
+        "TEST - Venue Name: " + jsonData.venue.name,
         "Venue Location: " + jsonData.venue.city + ", " + jsonData.venue.region,
         "Date of Event: " + jsonData.datetime,
         "-------------------------------------"
         ].join('\n\n')
+        console.log(concertDisplay);
 
         fs.appendFile('log.txt', concertDisplay, function (err) {
             if (err) throw err
-            console.log(concertDisplay);
         })
+
+
+
         }
     })
 }
@@ -82,7 +85,6 @@ function spotify(term) {
             if (err) throw err
             console.log(spotifyDisplay);
         })
-
     });
 }
 
@@ -129,9 +131,6 @@ function random() {
             if (err) throw err
             console.log(randomDisplay);
         })
-
-
-
 
     })
 }
