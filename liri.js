@@ -21,11 +21,17 @@ switch(search) {
     concert(term)
     break;
     case 'spotify-this-song':
+    if(!term) {
+        term = "The Sign Ace of Base"
+    }
     console.log('*Loading song info*')
     console.log("-------------------------------------")
     spotify(term);
     break;
     case 'movie-this':
+    if(!term) {
+        term = "Mr. Nobody"
+    }
     console.log('*Loading movie info*')
     console.log("-------------------------------------")
     movie(term)
@@ -41,7 +47,6 @@ function concert(term) {
         // will display information about the first 5 venues
         for (i = 0; i<5; i++) {
         var jsonData = response.data[i]
-/* un-comment the bottom section for the example of logging the info to log.txt*/
         var concertDisplay = [
         "Venue Name: " + jsonData.venue.name,
         "Venue Location: " + jsonData.venue.city + ", " + jsonData.venue.region,
@@ -53,8 +58,6 @@ function concert(term) {
         fs.appendFile('log.txt', concertDisplay, function (err) {
             if (err) throw err
         })
-
-
 
         }
     })
