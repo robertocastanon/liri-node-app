@@ -3,6 +3,7 @@
 require("dotenv").config(); // add code to read & set any environment var with dotenv package
 var keys = require("./keys.js"); // import the keys.js file then store it into a var
 var axios = require('axios'); // require axios for the omdb and bandsintown api
+const moment = require('moment') // required for use of moment.js
 var Spotify = require('node-spotify-api'); // need for the npm spotify api to work
 var fs = require('fs'); // will be used for the do-what-it-says case
 var input = process.argv // var to reuse in the next two vars
@@ -47,10 +48,11 @@ function concert(term) { // function for concert-this command
     axios.get(URL).then(function (response) {
         for (i = 0; i<5; i++) { // will display information about the first 5 venues
         var jsonData = response.data[i] // stores the json data in a variable times 5
+        var momentDate = moment(jsonData.datetime).format('MM/DD/YYYY') // variable to store information about the venues date and covert it using moment.js
         var concertDisplay = [ // variable to store concert info
         `Venue Name: ${jsonData.venue.name}`,
         `Venue Location: ${jsonData.venue.city}, ${jsonData.venue.region}`,
-        `Date of Event: ${jsonData.datetime}`,
+        `Date of Event: ${momentDate}`,
         `-------------------------------------`
         ].join('\n\n')
         console.log(concertDisplay); // display information
