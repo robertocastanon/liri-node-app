@@ -43,7 +43,7 @@ function concert(term) {
         var jsonData = response.data[i]
 /* un-comment the bottom section for the example of logging the info to log.txt*/
         var concertDisplay = [
-        "TEST - Venue Name: " + jsonData.venue.name,
+        "Venue Name: " + jsonData.venue.name,
         "Venue Location: " + jsonData.venue.city + ", " + jsonData.venue.region,
         "Date of Event: " + jsonData.datetime,
         "-------------------------------------"
