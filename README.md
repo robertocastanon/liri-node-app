@@ -41,7 +41,7 @@ I will now go into more detail on each command.
 
 ## concert-this
 
-Type **node liri concert-this** then an artist's name for an example i'll use 'Ariana Grande'.
+Type **node liri concert-this** then an artist's name for an example I'll use 'Ariana Grande'.
 
 This would look like **node liri concert-this ariana grande**
 
@@ -55,7 +55,7 @@ If the user does not provide a term and leaves it as **node liri concert-this** 
 
 ## spotify-this-song
 
-Type **node liri spotify-this-song** then a song's name for an exmple i'll use 'Chop Suey' by System of A Down.
+Type **node liri spotify-this-song** then a song's name for an exmple I'll use 'Chop Suey' by System of A Down.
 
 This would look like **node liri spotify-this-song chop suey**
 
@@ -69,7 +69,7 @@ If the user does not provide a term and leaves it as **node liri spotify-this-so
 
 ## movie-this
 
-Type **node liri movie-this** then a movie name for an example i'll use 'Her'.
+Type **node liri movie-this** then a movie name for an example I'll use 'Her'.
 
 This would like like **node liri movie-this her**
 
@@ -87,7 +87,7 @@ Type **node liri do-what-it-says**
 
 Unlike the other commands, **do-what-it-says** does not take in a term.
 
-This command will read the content inside the [random.txt](./random.txt) file which is **"spotify-this-song,"I Want it That Way""**. It will take will the **spotify-this-song** command and use **I Want it That Way** from the random.txt file as term.
+This command will read the content inside the [random.txt](./random.txt) file which is **"spotify-this-song,"I Want it That Way""**. It will take will the **spotify-this-song** command and use **I Want it That Way** from the random.txt file as a term.
 
 It should look like this:
 
