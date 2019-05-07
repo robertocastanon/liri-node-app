@@ -61,7 +61,7 @@ This would look like **node liri spotify-this-song chop suey**
 
 ![spotify example](./images/spotify-ex.PNG)
 
-The command will display the artist of the song, the song name, a preview link and the album the song was on using the [node-spotify-api](https://www.npmjs.com/package/node-spotify-api.
+The command will display the artist of the song, the song name, a preview link and the album the song was on using the [node-spotify-api](https://www.npmjs.com/package/node-spotify-api).
 
 If the user does not provide a term and leaves it as **node liri spotify-this-song** the program will default to a preset term which is set to 'The Sing by Ace of Base' and then display the information about that term.
 
