@@ -97,7 +97,7 @@ function movie(term) { //function for movie-this command
         `Title: ${jsonData.Title}`,
         `Release Date: ${jsonData.Released}`,
         `IMDB Rating: ${jsonData.imdbRating}`,
-        `Rotten Tomatoe Rating: ${jsonData.Ratings[1].Value}`,
+        `Rotten Tomatoes Rating: ${jsonData.Ratings[1].Value}`,
         `Country: ${jsonData.Country}`,
         `Language: ${jsonData.Language}`,
         `Plot: ${jsonData.Plot}`,

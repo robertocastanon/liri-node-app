@@ -1128,4 +1128,144 @@ Preview Link: https://p.scdn.co/mp3-preview/56ce61443e2a6475875fb9c5ab0bacf46a2e
 
 Album: Karaoke Box: Reggae Greatest Hits
 
+-------------------------------------Artist(s): Karaoke Box
+
+Song Name: I Saw the Sign (Karaoke Playback with Lead Vocals) [Made Famous by Ace of Base]
+
+Preview Link: https://p.scdn.co/mp3-preview/56ce61443e2a6475875fb9c5ab0bacf46a2e217f?cid=8b7add5d3da9442aa31a55f6b9c079e5
+
+Album: Karaoke Box: Reggae Greatest Hits
+
+-------------------------------------Artist(s): Nirvana
+
+Song Name: Smells Like Teen Spirit
+
+Preview Link: null
+
+Album: Nevermind (Remastered)
+
+-------------------------------------Artist(s): Kidz Bop Kids
+
+Song Name: Say Hey (I Love You)
+
+Preview Link: null
+
+Album: Kidz Bop 17
+
+-------------------------------------Artist(s): Death Grips
+
+Song Name: Say Hey Kid
+
+Preview Link: null
+
+Album: The Powers That B
+
+-------------------------------------Artist(s): Queens of the Stone Age
+
+Song Name: Go With The Flow
+
+Preview Link: null
+
+Album: Songs For The Deaf
+
+-------------------------------------Artist(s): Queens of the Stone Age
+
+Song Name: No One Knows
+
+Preview Link: null
+
+Album: Songs For The Deaf
+
+-------------------------------------Artist(s): System Of A Down
+
+Song Name: Chop Suey!
+
+Preview Link: https://p.scdn.co/mp3-preview/cd2a1f9fd7619bdae4e2e718b11d5bb054a3d677?cid=8b7add5d3da9442aa31a55f6b9c079e5
+
+Album: Toxicity
+
+-------------------------------------Title: The Avengers
+
+Release Date: 04 May 2012
+
+IMDB Rating: 8.1
+
+Rotten Tomatoe Rating: 92%
+
+Country: USA
+
+Language: English, Russian, Hindi
+
+Plot: Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.
+
+-------------------------------------Title: Her
+
+Release Date: 10 Jan 2014
+
+IMDB Rating: 8.0
+
+Rotten Tomatoe Rating: 94%
+
+Country: USA
+
+Language: English
+
+Plot: In a near future, a lonely writer develops an unlikely relationship with an operating system designed to meet his every need.
+
+-------------------------------------Artist(s): System Of A Down
+
+Song Name: Chop Suey!
+
+Preview Link: https://p.scdn.co/mp3-preview/cd2a1f9fd7619bdae4e2e718b11d5bb054a3d677?cid=8b7add5d3da9442aa31a55f6b9c079e5
+
+Album: Toxicity
+
+-------------------------------------Artist(s): Karaoke Box
+
+Song Name: I Saw the Sign (Karaoke Playback with Lead Vocals) [Made Famous by Ace of Base]
+
+Preview Link: https://p.scdn.co/mp3-preview/56ce61443e2a6475875fb9c5ab0bacf46a2e217f?cid=8b7add5d3da9442aa31a55f6b9c079e5
+
+Album: Karaoke Box: Reggae Greatest Hits
+
+-------------------------------------Title: Her
+
+Release Date: 10 Jan 2014
+
+IMDB Rating: 8.0
+
+Rotten Tomatoes Rating: 94%
+
+Country: USA
+
+Language: English
+
+Plot: In a near future, a lonely writer develops an unlikely relationship with an operating system designed to meet his every need.
+
+-------------------------------------Title: Mr. Nobody
+
+Release Date: 26 Sep 2013
+
+IMDB Rating: 7.8
+
+Rotten Tomatoes Rating: 67%
+
+Country: Belgium, Germany, Canada, France, USA, UK
+
+Language: English, Mohawk
+
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+
+-------------------------------------Running 'spotify-this-song' for 'I Want it That Way'
+
+-------------------------------------
+
+Artist(s): Backstreet Boys
+
+Song Name: I Want It That Way
+
+Preview Link: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=8b7add5d3da9442aa31a55f6b9c079e5
+
+Album: The Hits--Chapter One
+
 -------------------------------------
